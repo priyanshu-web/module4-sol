@@ -23,7 +23,7 @@
 // xxxx.xxxx = byeSpeaker;
 (function (window){
 	var byeSpeaker= {};
-	var speakWord = "Good Bye";
+	var speakWord = "Good Bye viewer, Thanks for comeing to our website ";
 	byeSpeaker.speak = function (name) {
   console.log(speakWord + " " + name);
 }
